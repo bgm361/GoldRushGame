@@ -1,15 +1,15 @@
-staj döneminde 4 saatte yaptım projenin mantığı :
+Gold Collection Strategy Game (Internship Project)
+Developed in approximately 4 hours during my internship period.
 
-1-Altın Hem Puan Hem Yakıt: Kasandaki altın miktarı senin can damarın. 
-Her hamle (hedef belirleme) ve her adım (yol maliyeti) kasandan altın eksiltir. Eğer kasan sıfırlanırsa 
-"iflas" edersin ve oyun dışı kalırsın.
+**Project Concept:
+Gold as Both Score and Fuel
+Gold is the most important resource in the game. Every action, including selecting a target and moving across the map, consumes gold. If a player's gold reaches zero, they go bankrupt and are eliminated from the game.
 
-2-Stratejik Seçim (A, B, C, D): Her oyuncunun bir "karakteri" var. Kimi sadece yakındaki altına koşar 
-(A), kimi "git-gel masrafı kurtarır mı?" diye hesap yapar (B), kimi gizli altınları kovalar (C), kimi 
-de rakiplerinin gitmediği yerlere pusu kurar (D).
+**Strategic Player Types (A, B, C, D)
+Each player follows a different strategy. Player A targets the nearest gold, Player B calculates whether the reward is worth the travel cost, Player C focuses on hidden treasures, and Player D attempts to exploit opportunities ignored by opponents.
 
-3-Gizli Hazineler: Haritada sadece üzerine gelindiğinde veya yakınına gidildiğinde açılan gizli altınlar vardır.
-Bunlar oyunun gidişatını her an değiştirebilir.
+**Hidden Treasures
+Some gold pieces remain hidden until a player gets close enough or reaches their location. These hidden resources can dramatically change the course of the game.
 
-4-Oyunun Sonu: Tahtadaki tüm altınlar bittiğinde veya tüm oyuncuların hamle yapacak parası kalmadığında oyun durur. 
-Finalde en çok kâr eden (Kasadaki Altın + Toplanan Altın) galip gelir.
+**Game End Conditions
+The game ends when all gold on the board has been collected or when no player has enough gold to continue making moves. The winner is the player with the highest profit, calculated from their remaining gold and collected gold.
